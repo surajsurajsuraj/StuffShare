@@ -1,0 +1,33 @@
+body {
+    background-color: wheat;
+}
+
+h1 {
+    color: beige;
+    text-align: left;
+    height: 100px;
+}
+
+header {
+    margin-top: -6px;
+    height: 60px;
+    background-color: powderblue;
+}
+
+.gotohome{
+    color: #003366;
+    font-size: 40px;
+    text-decoration: none;
+}
+.gotologin{
+    color: #003366;
+    font-size: 40px;
+    text-decoration: none;
+    text-align: center;
+}
+div.absolute {
+    position: absolute;
+    border: 3px solid #73AD21;
+    top: 6px;
+    right: 50px;
+}
