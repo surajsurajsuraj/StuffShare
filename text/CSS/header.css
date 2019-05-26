@@ -3,7 +3,6 @@ body {
 }
 
 h1 {
-    color: beige;
     text-align: left;
     height: 100px;
 }
@@ -11,6 +10,7 @@ h1 {
 header {
     margin-top: -6px;
     height: 80px;
+    background-color: blueviolet;
 }
 
 .gotohome{
@@ -44,4 +44,31 @@ loginModal {
     position: absolute;
     top: 8px;
     right: 16px;
+}
+
+.topnav input[type=text] {
+    margin-top: 8px;
+    font-size: 20px;
+    border: none;
+}
+
+.topnav .search-container button {
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+    background: #ccc;
+}
+
+
+@media screen and (max-width: 600px) {
+    .search-container {
+        float: none;
+    }
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
 }
