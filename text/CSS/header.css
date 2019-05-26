@@ -1,5 +1,5 @@
 body {
-    background-color: wheat;
+    background-color: #eaefeb;
 }
 
 h1 {
@@ -10,14 +10,14 @@ h1 {
 
 header {
     margin-top: -6px;
-    height: 60px;
-    background-color: powderblue;
+    height: 80px;
 }
 
 .gotohome{
-    color: #003366;
+    color: #e0e0e0;
     font-size: 40px;
     text-decoration: none;
+    background-color: #003366;
 }
 .gotologin{
     color: #003366;
@@ -27,7 +27,21 @@ header {
 }
 div.absolute {
     position: absolute;
+    border: 3px solid #003366;
+    top: 6px;
+    right: 50px;
+}
+loginModal {
+    position: absolute;
     border: 3px solid #73AD21;
     top: 6px;
     right: 50px;
+}
+.jumbotron{
+    background-color: #e0e0e0;
+}
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
 }
