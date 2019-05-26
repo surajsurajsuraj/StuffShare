@@ -1,5 +1,5 @@
 body {
-    background-color: wheat;
+    background-color: #eaefeb;
 }
 
 h1 {
@@ -15,7 +15,7 @@ header {
 }
 
 .gotohome{
-    color: #003366;
+    color: #3d4249;
     font-size: 40px;
     text-decoration: none;
 }
@@ -26,6 +26,12 @@ header {
     text-align: center;
 }
 div.absolute {
+    position: absolute;
+    border: 3px solid #73AD21;
+    top: 6px;
+    right: 50px;
+}
+loginModal {
     position: absolute;
     border: 3px solid #73AD21;
     top: 6px;
