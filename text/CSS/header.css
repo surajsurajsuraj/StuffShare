@@ -15,9 +15,10 @@ header {
 
 .gotohome{
     color: #e0e0e0;
-    font-size: 40px;
+    font-size: 35px;
     text-decoration: none;
     background-color: #003366;
+   font-family: "Times New Roman", Times, serif;
 }
 .gotologin{
     color: #003366;
